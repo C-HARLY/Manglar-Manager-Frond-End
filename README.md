@@ -83,26 +83,33 @@ Organización estándar de una aplicación React escalable:
   ├── /services       # Lógica de conexión a la API (Endpoints)
   ├── App.js          # Componente raíz y Rutas
   └── index.js        # Entry point
+```
 
 
+##  Instalación y Despliegue
 
-##  Instalación y Configuración
-
---
-Sigue estos pasos para levantar el servidor en local:
-
-1.  **Clonar repositorio e instalar dependencias:**
+1.  **Clonar el repositorio:**
     ```bash
     git clone https://github.com/C-HARLY/Manglar-Manager-Frond-End.git
-    cd ManglarManager-Backend
-    npm install
     ```
-
-
-2.  **Ejecutar en modo desarrollo:**
+2.  **Instalar dependencias:**
+    Este paso es vital porque descarga todas las librerías necesarias (React, Socket.IO, etc.):
     ```bash
-    npm run dev
+    npm install
+    ``
+3.  **Iniciar la aplicación:**
+    ```bash
+    npm start
     ```
-    *El servidor iniciará en http://localhost:5173*
+    *La aplicación se abrirá automáticamente en tu navegador en http://localhost:5173*
 
----
+
+    ##  Credenciales de Acceso 
+
+Para facilitar la revisión del proyecto y probar todas las funcionalidades (como la gestión de tareas y departamentos), puedes utilizar la cuenta de **Administrador** predeterminada:
+
+| Rol | Usuario (Username) | Contraseña (Password) |
+| :--- | :--- | :--- |
+| **Administrador** | `ADMINA` | `admin` |
+
+> **Nota:** Con este usuario tendrás acceso total al Dashboard, panel de chat y asignación de tareas.
